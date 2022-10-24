@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk Calculator</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Position Size Calculator</h1>
+        <button class="but" id="toggle"><ion-icon class="mode" id="mode" style="padding-top: 5px;"name="sunny-outline"></ion-icon></button>
+    </div>
+    <div class="container">
+        <div class="result">
+            <h1 id="line1">All Input Fields Must Be Complete</h1>
+            <h1 id="line2"></h1>
+            <h1 id="line3"></h1>
+        </div>
+        <div class="container2">
+            <div class="calc">
+                <span class="left">Account Size (USDT)</span>
+                <input class="field" type="text" placeholder="0" id="asize">
+                <span class="left">Risk %</span>
+                <input class="field" type="text" placeholder="0.0%" id="risk">
+                <span class="left">Entry Price</span>
+                <input class="field" type="text" placeholder="0" id="eprice">
+                <span class="left">Stoploss Price</span>
+                <input class="field" type="text" placeholder="0" id="sprice">                
+            </div>
+            
+        </div>
+        <button class="comp" id="compute">Compute</button>
+    </div>
+    <div class="footer" id="foot">
+        <b>by </b><a href="https://mael.pages.dev/"><b>Ismael Sarmiento</b></a>
+        <p>
+            <a href="https://www.linkedin.com/in/ismael-luis-sarmiento/" class="linkedin" target="_blank" rel="noopener noreferrer">
+              <ion-icon class="icon" style="padding-left: 10px; padding-right: 10px;"name="logo-linkedin"></ion-icon></a>
+            </a>
+            <a href="https://github.com/maelsar" class="instagram" target="_blank" rel="noopener noreferrer">
+              <ion-icon class="icon" name="logo-github"></ion-icon></a>
+            <a href="https://twitter.com/codewithmael" class="instagram" target="_blank" rel="noopener noreferrer">
+              <ion-icon class="icon" style="padding-left: 10px; padding-right: 10px;"name="logo-twitter"></ion-icon></a>
+            </p>
+    </div>
+    <script src="calc.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
