@@ -9,6 +9,6 @@ This was for personal use but I intend to share it with  other who wants to use 
 Everything was made with vanilla Javascript and CSS.
 Computation is done on client side in the browser with Javascript.
 
-If your interested on the source code, check it out on my github.
+If your interested in the source code, check it out on my github.
 
 ### Good luck on your trades and may the trend be with you!
